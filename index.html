@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #first-div {
+        border: 2px solid navy;
+    }
+
+    #second-div {
+        border: 2px solid olive;
+    }
+
+    #third-div {
+        border: 2px solid crimson;
+    }
+
+    .first-design {
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+
+    .second-design {
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+
+    .third-design {
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+
+    .theme {
+        color: white;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .first-pannel {
+        background-color: navy;
+    }
+
+    .second-pannel {
+        background-color: olive;
+    }
+
+    .third-pannel {
+        background-color: crimson;
+    }
+
+    .common {
+        padding: 10px;
+    }
+
+    .panel-primary {
+        background-color: navy;
+    }
+
+    .btn-primary:hover {
+        width: 90px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-primary:active {
+        background-color: rgb(139, 145, 226);
+    }
+
+    .btn-secondary:hover {
+        width: 90px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .panel-secondary {
+        background-color: olive;
+    }
+
+    .panel-danger {
+        background-color: crimson;
+    }
+
+    .btn-danger:hover {
+        width: 90px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-anchor:hover {
+        width: 90px;
+        white-space: nowrap;
+
+        text-overflow: ellipsis;
+    }
+
+    .panel-anchor {
+        background-color: navy;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div id="first-div" class="first-design">
+            <div class="theme first-pannel"> What is CSS?</div>
+            <div class="common">
+                CSS is a language used for styling web pages. It stands for Cascading Style Sheet.
+            </div>
+        </div>
+        <div id="second-div" class="second-design">
+            <div class="theme second-pannel">What is CSS?</div>
+            <div class="common">CSS is a language used for styling web pages. It stands for Cascading Style Sheet.</div>
+        </div>
+        <div id="third-div" class="third-design">
+            <div class="theme third-pannel">What is CSS?</div>
+            <div class="common">CSS is a language used for styling web pages. It stands for Cascading Style Sheet.</div>
+        </div>
+        <button class="theme btn-primary panel-primary">Buy Now!</button>
+        <button class="theme  btn-secondary panel-secondary">Ok! Google</button>
+        <button class="theme btn-danger panel-danger">Delete</button>
+
+
+        <button class="theme btn-primary panel-primary" ><a style="color: white;" href="https://www.google.com" >Go to Google</a>
+        </button>
+
+        <!-- Alternative method to add https://google.com -->
+        Workspace
+        <!-- <form style="display: inline;" target="_" action="https://google.com">
+            <input type="submit" value="Go to Google" class="theme btn-primary panel-primary"/>
+        </form> -->
+        
+
+
+    </div>
+</body>
+
+</html>
